@@ -11,7 +11,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 const Button = props => {
   return /*#__PURE__*/_react.default.createElement("button", {
-    className: "btn btn--".concat(props.kind, " CTA"),
     "data-id": props.id,
     type: props.type,
     name: props.name,
