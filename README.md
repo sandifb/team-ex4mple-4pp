@@ -1,5 +1,5 @@
 # TO Publish
 
-    `npm run build`
     Change Versoin
+    `npm run build`
     npm publish .

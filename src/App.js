@@ -4,6 +4,10 @@ function App() {
   if (window.location.pathname === "/setting") {
     return <SettingApp />;
   }
-  return <MainApp />;
+  return (
+    <div style={{ backgroundColor: "#ebebeb", margin: 0, height: "100vh" }}>
+      <MainApp />
+    </div>
+  );
 }
 export default App;
