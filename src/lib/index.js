@@ -1,4 +1,4 @@
-import Badge from "./components/Badge";
-import Button from "./components/Button";
+import MainApp from "./components/MainApp";
+import SettingApp from "./components/SettingApp";
 
-export { Badge, Button };
+export { SettingApp, MainApp };
